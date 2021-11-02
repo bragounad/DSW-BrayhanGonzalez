@@ -1,0 +1,31 @@
+header{
+    background-color: #193498;
+    color:white;
+    text-align: center;
+}
+nav{
+    background-color:#d0d9fd;
+    color:black;
+    text-align: justify;
+}
+section{
+    background-color:#1597E5;
+    color: black;
+    text-align: justify;
+    grid-column: 1/4;
+}
+aside{
+    background-color:#71c3f7;
+    color:black;
+    text-align: justify;
+    grid-column: 4/5;
+}
+footer{
+    background-color:#23a5f5;
+    color:black;
+    text-align: justify;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
